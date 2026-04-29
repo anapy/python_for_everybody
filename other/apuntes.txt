@@ -1,0 +1,3 @@
+Apuntes python
+Variables, expressions and statements
+-> type(x)
