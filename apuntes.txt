@@ -1,0 +1,19 @@
+Apuntes python
+Variables, expressions and statements
+-> type(x) 
+	-> class'str'
+-> integer division returns a float 
+	print(10/2) -> 5.0
+-> user input -> it is type as string, if you want to use it as number, you must convert it to a number with int(x) or float(x)
+-> comments starts with #
+
+Conditional execution
+-> boolean in python is bool
+-> x is y -> means x is the same as y
+-> x is not y -> means x is not the same as y
+-> other operators => and, or, not 
+-> use 'pass' as statement word when if indented block is not completed
+	if x > 0:
+	  pass #will add code here in a future
+-> 'elif' as abbreviation of 'else if'
+-> 'try' and 'except'
