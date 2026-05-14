@@ -9,7 +9,6 @@ fruits = list(['banana', 'pear', 'orange'])
 chop(fruits)
 print(fruits)
 
-
 colors = list(['blue','purple','red', 'yellow'])
 #function that keeps the list and return a new list
 def middle(array):
