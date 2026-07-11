@@ -2,15 +2,12 @@
 You can use split('/') to break the URL into its component parts so you can extract the host name for the socket connect call. Add error checking using try and except to handle the condition where the user enters an improperly formatted or non-existent URL.'''
 
 from urllib.parse import urlparse
-
-
-
 import socket
+
 url = input('Enter your url: ')
 parsed = urlparse(url)
 hostName = parsed.netloc
 path = parsed.path
-
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 mysock.connect((hostName, 80))
